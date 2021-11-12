@@ -1,8 +1,7 @@
 import React from 'react'
 import {Preheader} from "./component/Preheader.js";
 import "./style/index.css";
-import {Navbar} from "./component/Navbar.js"
-import {Carousel} from "./component/Carousel.js"
+import {Navbar} from "./component/Navbar.js";
 
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
     <>
       <Preheader />
       <Navbar />
-      <Carousel />
+      
     </>
   )
 }

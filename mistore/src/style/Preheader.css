@@ -1,8 +1,8 @@
 .preheader{
     width: 100vw;
     height: 3vw;
-    background-color: rgba(0, 0, 0, 0.849);
-    color:rgba(255, 255, 255, 0.555);
+    background-color: rgba(197, 22, 22, 0.849);
+    color:white;
     display: grid;
     grid-template-columns: .6fr 3fr 2fr 2fr;
     font-size: .8vw;
@@ -32,6 +32,8 @@
     justify-content: center;
     align-items: center;
 }
-#downarrow img{
-    fill:rgba(255, 255, 255, 0.555);
+.preheader img{
+    width: 1.5vw;
+    height: 1.5vw;
+   
 }
