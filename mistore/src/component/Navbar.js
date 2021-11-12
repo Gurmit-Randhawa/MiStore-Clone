@@ -1,8 +1,6 @@
 import React from "react";
 import "../style/Navbar.css";
 import { search } from "../SVG/svg.js";
-import { myCarousel } from "./myCarousel";
-import data from "../data/data.json"
 
 const Navbar = () => {
   return (
@@ -43,7 +41,7 @@ const Navbar = () => {
         </div>
         <div className="sections" id="section5"></div>
       </div>
-      <myCarousel start={data.banner.start}/>
+      
     </>
   );
 };
