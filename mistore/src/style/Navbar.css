@@ -1,0 +1,31 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 12fr 4fr 3fr 1fr;
+    height: 5vw;
+    background-color: transparent;
+    font-size: 1vw;
+    position:fixed;
+    z-index: 100;
+    color:white;
+}
+/* .navbar div{
+    border: yellow solid 1px;
+} */
+#section2{
+    display: grid;
+    grid-template-columns: repeat(9,auto);
+    justify-content: space-around;
+    align-items: center;
+}
+#section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section4 input{
+    border:none;
+    outline:none;
+    background-color: transparent;
+    border-bottom: rgba(128, 128, 128, 0.288) solid 1px ;
+    padding:5px;
+}
