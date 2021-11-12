@@ -1,15 +1,18 @@
 import React from 'react';
 import "../style/Carousel.css";
-import data from "../data/data.json"
+import data from "../data/data.json";
+// const bannerData = data.banner.start;
 
 const Carousel = () => {
     return (
         <>
          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
+                
                 <div class="carousel-item active">
-                <img src={data.banner.end[0].image} class="d-block w-100" alt="..."/>
+                    <img src={data.banner.end[1].image} class="d-block w-100" alt="..."/>
                 </div>
+               
                 <div class="carousel-item">
                 <img src={data.banner.end[1].image} class="d-block w-100" alt="..."/>
                 </div>

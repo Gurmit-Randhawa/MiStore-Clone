@@ -29,3 +29,12 @@
     border-bottom: rgba(128, 128, 128, 0.288) solid 1px ;
     padding:5px;
 }
+.experi{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+img{
+    width: 25vw;
+    height: 25vw;
+}

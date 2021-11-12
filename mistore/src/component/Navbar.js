@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/Navbar.css";
-import {search} from "../SVG/svg.js"
+import { search } from "../SVG/svg.js";
 
 const Navbar = () => {
   return (
@@ -35,7 +35,10 @@ const Navbar = () => {
           </div>
         </div>
         <div className="sections" id="section3"></div>
-        <div className="sections" id="section4"><input type="search" name="" id="" placeholder="Search Products"/>{search}</div>
+        <div className="sections" id="section4">
+          <input type="search" name="" id="" placeholder="Search Products" />
+          {search}
+        </div>
         <div className="sections" id="section5"></div>
       </div>
     </>
