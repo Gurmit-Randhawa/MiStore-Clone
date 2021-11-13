@@ -34,7 +34,7 @@ function App() {
           }
         />
       </Routes>
-      <Headings headText={"PRODUCT REVIEW"} />
+      {/* <Headings headText={"PRODUCT REVIEW"} /> */}
     </>
   );
 }
