@@ -1,5 +1,12 @@
 {
       "logo": "https://i01.appmifile.com/webfile/globalimg/pandora/mi-logo.svg",
+      "headings": [
+            "STAR PRODUCTS",
+            "HOT ACCESSORIES",
+            "PRODUCT REVIEWS",
+            "VIDEOS",
+            "IN THE PRESS"
+                   ],
       "miPhones": [
             {
                   "name": "Mi 11 Ultra 5G",
