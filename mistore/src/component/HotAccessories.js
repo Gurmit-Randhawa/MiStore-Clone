@@ -9,12 +9,13 @@ const HotAccessories = ({musicCover,music}) => {
         <div className="musiccover">
           <img src={musicCover} alt="" className="musicimage" />
         </div>
-        <div className="musicover2">
+        <div className="musiccover2">
           {
              music.map((item)=>( 
           <Itemboxes key={item.image} name={item.name} price={item.price} image={item.image}/>
           ))
           }
+          
         </div>
       </div>
     </>
