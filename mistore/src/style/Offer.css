@@ -1,0 +1,14 @@
+.offerBox{
+    width: 85vw;
+  
+    margin: auto;
+}
+.offerBox img{
+    margin: 20px;
+    height: 18vw;
+    transition: 1s all;
+}
+.offerBox img:hover{
+    box-shadow: rgba(0, 0, 0, 0.575) 5px 5px 20px;
+    transform: translateY(-2px);
+}

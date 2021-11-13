@@ -3,6 +3,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import data from '../data/data.json';
 const start = data.banner.start;
+const bannerStyle = {
+    height:"37vw"
+}
 
 const SlideBar = () => {
     return (
@@ -16,11 +19,9 @@ const SlideBar = () => {
                         className="d-block w-100"
                         src={item}
                         alt="First slide"
+                        style={bannerStyle}
                         />
-                        <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
+                        
                     </Carousel.Item>
 
                 ))}
