@@ -1,0 +1,13 @@
+.hotaccessoriesmenu{
+    width: 50vw;
+    margin: auto;
+    font-size: 1.1vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.hotaccessorieslink{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.89);
+}
