@@ -9,7 +9,7 @@ import data from "./data/data.json";
 import { StarProducts } from "./component/StarProducts.js";
 import { HotAccessoriesMenu } from "./component/HotAccessoriesMenu.js";
 import { Routes, Route } from "react-router-dom";
-import {HotAccessoriesMusic} from './component/HotAccessoriesMusic.js';
+import { HotAccessories } from "./component/HotAccessories.js";
 
 function App() {
   return (
@@ -23,8 +23,18 @@ function App() {
       <Headings headText={"HOT ACCESSORIES"} />
       <HotAccessoriesMenu />
       <Routes>
-        <Route exact path="/" element={<HotAccessoriesMusic />} />
+        <Route
+          exact
+          path="/music"
+          element={
+            <HotAccessories
+              musicCover={data.hotAccessoriesCover.music}
+              music={data.hotAccessories.music}
+            />
+          }
+        />
       </Routes>
+      <Headings headText={"PRODUCT REVIEW"} />
     </>
   );
 }
