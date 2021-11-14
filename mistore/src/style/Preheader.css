@@ -1,7 +1,7 @@
 .preheader{
     width: 100vw;
     height: 3vw;
-    background-color: rgba(197, 22, 22, 0.849);
+    background-color: rgba(0, 0, 0, 0.87);
     color:white;
     display: grid;
     grid-template-columns: .6fr 3fr 2fr 2fr;

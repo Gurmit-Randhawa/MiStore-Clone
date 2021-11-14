@@ -11,3 +11,6 @@
     text-decoration: none;
     color: rgba(128, 128, 128, 0.89);
 }
+.hotaccessorieslink:hover{
+    color:orangered;
+}

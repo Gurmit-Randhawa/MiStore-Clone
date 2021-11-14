@@ -7,7 +7,7 @@
   transition: 1s all;
   margin:4px;
   background-color: white;
-}
+  }
 .itemcard:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
     transform: translateY(-4px);

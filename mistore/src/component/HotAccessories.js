@@ -1,6 +1,8 @@
 import React from "react";
 import "../style/HotAccessories.css";
 import { Itemboxes } from "../component/Itemboxes.js";
+import '../SVG/svg.js';
+import { forwardArrow } from "../SVG/svg";
 
 const HotAccessories = ({musicCover,music}) => {
   return (
@@ -15,7 +17,9 @@ const HotAccessories = ({musicCover,music}) => {
           <Itemboxes key={item.image} name={item.name} price={item.price} image={item.image}/>
           ))
           }
-          
+          <div className="browseBox">
+            <h1>Browse More <span>{forwardArrow}</span></h1>
+          </div>
         </div>
       </div>
     </>

@@ -1,12 +1,15 @@
 import React from "react";
 import "../style/Navbar.css";
 import { search } from "../SVG/svg.js";
+import {Logo} from '../component/Logo.js';
 
 const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <div className="sections" id="section1"></div>
+        <div className="sections" id="section1">
+          <Logo/>
+        </div>
         <div className="sections" id="section2">
           <div className="navbarMenus" id="navbarMenu1"></div>
           <div className="navbarMenus" id="navbarMenu2">
@@ -36,7 +39,7 @@ const Navbar = () => {
         </div>
         <div className="sections" id="section3"></div>
         <div className="sections" id="section4">
-          <input type="search" name="" id="" placeholder="Search Products" />
+          <input type="search" name="" id="" placeholder="Search" />
           {search}
         </div>
         <div className="sections" id="section5"></div>

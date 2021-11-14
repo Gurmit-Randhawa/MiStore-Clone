@@ -1,11 +1,13 @@
 .offerBox{
-    width: 85vw;
-  
+    width: 95vw;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .offerBox img{
     margin: 20px;
-    height: 18vw;
+    height: 16vw;
     transition: 1s all;
 }
 .offerBox img:hover{

@@ -21,3 +21,19 @@
   display: flex;
   flex-wrap: wrap;
 }
+.browseBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 1s all;
+  width: 31%;
+  color:orangered;
+}
+.browseBox span{
+  fill:orangered;
+}
+.browseBox:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
+  transform: translateY(-4px);
+}

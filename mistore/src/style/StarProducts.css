@@ -1,6 +1,6 @@
 .starproductbox{
     width: 85vw;
-    height: 100vh;
+    height: 86vh;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -21,6 +21,7 @@
 #image2, #image3{
     width: 21.1vw;
     transition: 1s all;
+    height: 50%;
 }
 #image4{
     width: 42.2vw;
