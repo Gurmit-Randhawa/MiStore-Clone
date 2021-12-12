@@ -5,3 +5,8 @@ span{
     background-color: #192a56;
 }
 
+.CircleImage{
+    width: 1000px;
+    overflow: hidden;
+    border-radius: 150px;
+}

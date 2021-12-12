@@ -6,11 +6,10 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin:-8px;
 
 }
-.lines{
-    margin:5px;
-}
+
 #line1{
     font-size: 35px;
     font-weight:bolder; 
