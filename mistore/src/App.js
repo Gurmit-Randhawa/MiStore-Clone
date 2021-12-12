@@ -11,6 +11,9 @@ import { HotAccessoriesMenu } from "./component/HotAccessoriesMenu.js";
 import { Routes, Route } from "react-router-dom";
 import { HotAccessories } from "./component/HotAccessories.js";
 import {ProductReview} from './component/ProductReview.js';
+import {Video} from './component/Video.js';
+
+
 function App() {
   return (
     <>
@@ -79,6 +82,7 @@ function App() {
       <Headings headText={"PRODUCT REVIEW"} />
       <ProductReview productReviews={data.productReviews}/>
       <Headings headText={"VIDEOS"} />
+      <Video videos={data.videos} />
 
     </>
   );
