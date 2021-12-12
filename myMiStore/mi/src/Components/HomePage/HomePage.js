@@ -14,6 +14,7 @@ import {
   Icons,
   BtnStyle,
 } from "../HomePage/HomePageStyle.js";
+// import abc from '../Images/1.JPG';
 
 const HomePage = () => {
   return (
@@ -26,9 +27,7 @@ const HomePage = () => {
               <Icons href="https://github.com/Gurmit-Randhawa">{github}</Icons>
               <Icons href="https://github.com/Gurmit-Randhawa">{youtube}</Icons>
               <Icons href="https://github.com/Gurmit-Randhawa">{twitter}</Icons>
-              <Icons href="https://github.com/Gurmit-Randhawa">
-                {facebook}
-              </Icons>
+              <Icons href="https://github.com/Gurmit-Randhawa">{facebook}</Icons>
             </SocialIconBox>
             <InfoBox size={"22px"}>
               Hello, I'M <span>Gurmit</span>
@@ -44,9 +43,7 @@ const HomePage = () => {
           </InfoSection>
           <ImageSection>
             <MyImage>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-              ipsum laboriosam, ipsa consectetur nisi facilis sapiente sint
-              temporibus sunt perspiciatis.
+              {/* <img classname="CircleImage" src={abc} alt="" /> */}
             </MyImage>
           </ImageSection>
         </Background>
