@@ -5,7 +5,7 @@ export const BtnStyle = {
   }
 
 export const AboutMeBox = styled.div`
-     width:60%;
+     width:65%;
     height:90vh;
     border:black solid 2px;
     box-shadow: black 5px 5px 15px ;
@@ -19,6 +19,8 @@ export const AboutMeBox = styled.div`
 export const Left = styled.div`
     height:100%;
     width: 50%;
+    overflow:hidden;
+    position:relative;
 `
 export const MyImage = styled.div`
   

@@ -10,7 +10,7 @@ import {
   BtnStyle,
 } from "../AboutMe/AboutMeStyle.js";
 import "../AboutMe/AboutMe.css";
-import  myImage from '../Images/Gurmit.jpg';
+import  myImage from '../Images/2.JPG';
 
 const AboutMe = () => {
   return (

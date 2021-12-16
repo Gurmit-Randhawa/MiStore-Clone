@@ -2,11 +2,10 @@ span{
     color:#f75c2d;
 }
 .homepage{
-    background-color: #192a56;
+  background-color:rgb(7, 25, 46);
+
 }
 
 .CircleImage{
-    width: 1000px;
-    overflow: hidden;
-    border-radius: 150px;
+    height: 500px;
 }

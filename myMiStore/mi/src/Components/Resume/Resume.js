@@ -13,6 +13,7 @@ import {
 } from "../Resume/ResumeStyle.js";
 import "./Resume.css";
 import {education,workHistory,programmingSkills,projects,interests} from '../FontAweSome/FontAweSome.js';
+import {ResumeContent} from './ResumeContent.js';
 
 const Resume = () => {
   return (
@@ -49,7 +50,9 @@ const Resume = () => {
           </RowBlank>
         </Left>
         <Center></Center>
-        <Right></Right>
+        <Right>
+          <ResumeContent/>
+        </Right>
       </ResumePage>
     </>
   );

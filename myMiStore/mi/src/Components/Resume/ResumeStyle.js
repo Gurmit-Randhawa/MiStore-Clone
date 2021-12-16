@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ResumePage = styled.div`
-  width: 70%;
+  width: 80%;
   height: 75vh;
   margin: 40px auto;
   display: flex;
@@ -91,7 +91,6 @@ export const Right = styled.div`
   width: 63%;
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 15px;
+  overflow:scroll;
 `;

@@ -12,6 +12,7 @@ export const Background = styled.div`
   align-items: center;
   color:white;
   text-align:center;
+
 `;  
 export const InfoSection = styled.div`
   width: 50%;
@@ -71,6 +72,7 @@ export const MyImage = styled.div`
   align-items: center;
   border:solid white 5px;
   border-radius:50%;
+  overflow:hidden;
 `;
 
 export const Icons = styled.div`

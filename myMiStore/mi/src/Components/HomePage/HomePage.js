@@ -14,7 +14,7 @@ import {
   Icons,
   BtnStyle,
 } from "../HomePage/HomePageStyle.js";
-// import abc from '../Images/1.JPG';
+import abc from '../Images/1.JPG';
 
 const HomePage = () => {
   return (
@@ -43,7 +43,7 @@ const HomePage = () => {
           </InfoSection>
           <ImageSection>
             <MyImage>
-              {/* <img classname="CircleImage" src={abc} alt="" /> */}
+              <img className="CircleImage" src={abc} alt="" />
             </MyImage>
           </ImageSection>
         </Background>
