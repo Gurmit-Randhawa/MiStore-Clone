@@ -299,6 +299,7 @@ const ResumeContent = () => {
                 </div>
             </div>
         </div>
+        
       </Container>
     </>
   );

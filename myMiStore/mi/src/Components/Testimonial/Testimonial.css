@@ -1,0 +1,30 @@
+.this{
+    padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.722);
+    position: relative;
+}
+.innerTestiBox{
+    width:150vw;
+    height:55vh;
+    display:flex;
+    align-items: center;
+}
+.Testi{
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    border-bottom-right-radius: 0px;
+    background-color: white;
+    padding:25px;
+    text-align: justify;
+    margin:0 20px;
+
+}
+.TestiBackImage{
+    position:absolute;
+    top:0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
