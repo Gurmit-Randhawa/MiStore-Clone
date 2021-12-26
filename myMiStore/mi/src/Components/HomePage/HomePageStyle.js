@@ -5,9 +5,10 @@ export const BtnStyle = {
 
 export const Background = styled.div`
   width: 100%;
-  height: 70vh;
+  height: 80vh;
   background-size: cover;
   display: flex ;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
   color:white;
@@ -15,21 +16,23 @@ export const Background = styled.div`
 
 `;  
 export const InfoSection = styled.div`
-  width: 50%;
   height: 100%;
   display: grid;
   grid-template-rows: auto auto auto auto auto;
   justify-content: center;
   align-items: center;
   padding: 5% 2% 5% 2%;
+
 `;
 export const ImageSection = styled.div`
   width: 50%;
-  height: 100%;
+  height: 65%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 15% 5% 15% 5%;
+
+
 
 `;
 export const SocialIconBox = styled.div`
@@ -49,8 +52,8 @@ export const ButtonBox = styled.div`
   align-items: center;
 
   button{
-  width:12vw;
-  height: 3.8vw;
+  width:150px;
+  height:40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -61,17 +64,16 @@ export const ButtonBox = styled.div`
   font-size:12px;
   border-radius:50px;
   background-color:#ff5823;
+  transition: .5s ease-out;
 
   }
 `;
 export const MyImage = styled.div`
-  height: 28vw;
-  width: 28vw;
+  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   border:solid white 5px;
-  border-radius:50%;
   overflow:hidden;
 `;
 

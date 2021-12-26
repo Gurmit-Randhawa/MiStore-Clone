@@ -16,8 +16,6 @@ const App = () => {
       <AboutMe/>
       <Headings heading1={"Resume"} heading2={"My Formal Bio Details"}/>
       <Resume/>
-      <Headings heading1={"Testimonials"} heading2={"What My Client Say About Me"}/>
-      <Testimonial/>
       <Headings heading1={"Contact Me"} heading2={"Lets Keep In touch"}/>
       <ContactMe/>
 

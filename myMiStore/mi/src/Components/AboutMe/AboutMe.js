@@ -12,6 +12,33 @@ import {
 import "../AboutMe/AboutMe.css";
 import  myImage from '../Images/2.JPG';
 
+export const HireMe1 = () => {
+  const HoverEffect = document.getElementById('HireMe1');
+  HoverEffect.style.backgroundColor = "#ff5823";
+  HoverEffect.style.fontSize = "14px";
+}
+
+export const HireMe1Leave = () => {
+  const HoverEffect = document.getElementById('HireMe1');
+  // HoverEffect.style.backgroundColor = "transparent";
+  HoverEffect.style.fontSize = "13px";
+
+}
+
+export const GetResume1 = () => {
+  const HoverEffect = document.getElementById('GetResume1');
+  // HoverEffect.style.backgroundColor = "transparent";
+  HoverEffect.style.fontSize = "14px";
+
+}
+
+export const GetResume1Leave = () => {
+  const HoverEffect = document.getElementById('GetResume1');
+  HoverEffect.style.backgroundColor = "#ff5823";
+  HoverEffect.style.fontSize = "13px";
+
+}
+
 const AboutMe = () => {
   return (
     <>
@@ -50,9 +77,9 @@ const AboutMe = () => {
             </ul>
           </KeyFeatureList>
           <ButtonBox>
-            <button style={BtnStyle}>Hire Me</button>
-            <button>Get Resume</button>
-          </ButtonBox>
+              <button onMouseMove={HireMe1} onMouseLeave={HireMe1Leave}  id="HireMe1" style={BtnStyle}>Hire Me</button>
+              <button onMouseOver={GetResume1} onMouseLeave={GetResume1Leave} id="GetResume1">Get Resume</button>
+            </ButtonBox>
         </Right>
       </AboutMeBox>
     </>

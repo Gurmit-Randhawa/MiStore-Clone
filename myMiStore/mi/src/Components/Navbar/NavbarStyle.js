@@ -9,7 +9,6 @@ export const Header = styled.div`
   justify-content: space-around;
   text-align:center;
   align-items: center;
-  /* background-color:darkgray; */
 
 `;
 

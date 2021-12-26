@@ -1,21 +1,24 @@
 import styled from "styled-components";
 
 export const ResumePage = styled.div`
-  width: 80%;
-  height: 75vh;
+  width: 98%;
+  height: 100vh;
   margin: 40px auto;
   display: flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
 `;
 export const Left = styled.div`
-  width: 37%;
-  height: 100%;
+  width: 90%;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 15px;
+  background-color: white ;
+
 `;
 // export const BlankBox = styled.div`
   
@@ -78,19 +81,20 @@ export const RowBlankRight = styled.div`
 
 `;
 export const Center = styled.div`
-  width: 0.1%;
-  height: 90%;
-  margin: auto;
+  height: 0.1%;
+  width: 90%;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: solid gray 2px;
+  border-right: solid black 2px;
   box-shadow: black 4px 0px 10px;
 `;
 export const Right = styled.div`
-  width: 63%;
-  height: 100%;
+  width: 100%;
+  height: 800px;
   display: flex;
   padding: 15px;
   overflow:scroll;
+  background-color: lightgray ;
 `;

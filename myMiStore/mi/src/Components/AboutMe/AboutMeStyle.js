@@ -5,8 +5,8 @@ export const BtnStyle = {
   }
 
 export const AboutMeBox = styled.div`
-     width:65%;
-    height:90vh;
+     width:75%;
+    height:55vh;
     border:black solid 2px;
     box-shadow: black 5px 5px 15px ;
     margin:50px auto ;
@@ -21,13 +21,14 @@ export const Left = styled.div`
     width: 50%;
     overflow:hidden;
     position:relative;
+    display: none;
 `
 export const MyImage = styled.div`
   
 `
 export const Right = styled.div`
     height:100%;
-    width: 50%;
+    width: 100%;
 
 
   
@@ -38,7 +39,7 @@ export const Paragraph = styled.div`
 `
 export const KeyFeatureList = styled.div`
     
-        padding:26px 38px;
+        padding:6px 38px;
     
   
 `
@@ -48,8 +49,8 @@ export const ButtonBox = styled.div`
   align-items: center;
 
   button{
-  width:12vw;
-  height: 3.8vw;
+  width:150px;
+  height:40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,6 +61,7 @@ export const ButtonBox = styled.div`
   font-size:12px;
   border-radius:50px;
   background-color:#ff5823;
+  transition: .5s ease-out;
 
   }
 `;

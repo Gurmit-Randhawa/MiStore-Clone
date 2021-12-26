@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const ContactMeBox = styled.div`
   width: 80%;
-  height: 80vh;
+  height: 70vh;
   box-shadow: black 5px 5px 10px;
   margin: 40px auto;
   border-radius: 20px;
@@ -13,22 +13,23 @@ export const ContactMeBox = styled.div`
   align-item: center;
   border: black solid 2px;
   background-color:rgb(7, 25, 46);
+
 `;
 export const TopBar = styled.div`
   grid-area: 1/1/2/4;
-  height: 12vh;
+  height: 120px;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto Slab", serif;
   font-family: "Urbanist", sans-serif;
-  font-size:2.6vw;
+  font-size:35px;
   letter-spacing:2px;
   font-weight:900;
   color:white;
   padding:10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: left;
+  justify-content: space-around;
+  align-items: center;
 `;
 
 export const Left = styled.div`
@@ -38,10 +39,11 @@ export const Left = styled.div`
   flex-direction:column;
   justify-content: center;
   align-items: center;
+  display:none;
 `;
 export const Right = styled.div`
-  width: 39.5vw;
-  height: 65vh;
+  width: 80vw;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-item:center
@@ -91,8 +93,8 @@ export const ButtonBox = styled.div`
 `
 export const Send = styled.button`
 
-  width:12vw;
-  height: 3vw;
+  width:100px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;

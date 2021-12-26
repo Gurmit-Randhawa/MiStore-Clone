@@ -77,6 +77,8 @@ const ResumeContent = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
               ipsum accusantium quia?
             </li>
+            
+            
           </div>
         </div>
         <div className="pages" id="ProgrammingSkills">
