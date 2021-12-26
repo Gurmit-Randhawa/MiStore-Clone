@@ -18,7 +18,6 @@ function App() {
   return (
     <>
       <Preheader />
-      
       <Navbar />
       <SlideBar />
       <Offer />

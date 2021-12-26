@@ -11,12 +11,12 @@
 }
 
 #line1{
-    font-size: 35px;
+    font-size: 2.5vw;
     font-weight:bolder; 
     font-style: bold;
 }
 #line2{
-    font-size: 13px;
+    font-size: 1vw;
     letter-spacing: 2px;
 }
 #line3{
@@ -26,13 +26,13 @@
     margin-top: 10px;
 }
 .design{
-    width:70px;
+    width:5.5vw;
     border:1px solid black;
     background-color: black;
 }
 .pinkbox{
-    width:35px;
-    height: 10px;
+    width:3vw;
+    height: .8vw;
     border-radius: 3px;
     background-color: #ff5823;
 }

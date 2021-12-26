@@ -1,0 +1,36 @@
+{
+    "Name":["Gurmit","Akash","Jeevan"],
+    "Class":[
+        {
+            "Section":"A",
+            "Subject":"English"
+        },
+        {
+            "Section":"B",
+            "Subject":"Math"
+        }
+    ],
+    "Company":{
+        "MiStore":[
+            {
+                "Location":"Gurgaon",
+                "Turnover":"10 Billion"
+            },
+            {
+                "Location":"Gurgaon",
+                "Turnover":"10 Billion"
+            }
+        ],
+        "HotelB7":[
+            {
+                "Location":"Gurgaon",
+                "Turnover":"10 Billion"
+            },
+            {
+                "Location":"Gurgaon",
+                "Turnover":"10 Billion"
+            }
+        ],
+    "Services":["WebsiteDesigning","Website Deployment","Software Development"]    
+    }
+}

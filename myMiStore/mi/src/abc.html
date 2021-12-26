@@ -1,13 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Gurmit</h1>
-</body>
-<script src="./testing.js"></script>
+    <style>
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 15px;
+        margin:10px;
+      }
+      #circle {
+        height: 12px;
+        /* width: 12px; */
+        border-radius: 20px;
+        background-color: blue;
+        margin-right: 10px;
+        flex:.3;
+
+      }
+      #skillname {
+        color: rgb(177, 13, 13);
+        /* width: 80px; */
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        flex:4;
+      }
+      #capacity {
+        background-color: blue;
+        /* width: 200px; */
+        height: 100%;
+        flex:6;
+
+      }
+      #last {
+        background-color: rgb(255, 8, 0);
+        /* width: 70px; */
+        height: 100%;
+        flex:1;
+      }
+      #lastnode {
+        background-color: rgb(255, 8, 0);
+        /* width: 70px; */
+        height: 100%;
+        flex:2;
+      }
+      #lastexpress {
+        background-color: rgb(255, 8, 0);
+        /* width: 70px; */
+        height: 100%;
+        flex:2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="box" id="box1">
+        <div id="circle"></div>
+        <div id="skillname">JavaScript</div>
+        <div id="capacity"></div>
+        <div id="last"></div>
+      </div>
+      <div class="box" id="box1">
+        <div id="circle"></div>
+        <div id="skillname">ReactJS</div>
+        <div id="capacity"></div>
+        <div id="last"></div>
+      </div>
+      <div class="box" id="box1">
+        <div id="circle"></div>
+        <div id="skillname">React Hooks</div>
+        <div id="capacity"></div>
+        <div id="last"></div>
+      </div>
+      <div class="box" id="box1">
+        <div id="circle"></div>
+        <div id="skillname">CSS</div>
+        <div id="capacity"></div>
+        <div id="last"></div>
+      </div>
+      <div class="box" id="box1">
+        <div id="circle"></div>
+        <div id="skillname">Material UI</div>
+        <div id="capacity"></div>
+        <div id="last"></div>
+      </div>
+      <div class="box" id="box1">
+        <div id="circle"></div>
+        <div id="skillname">Styled Components</div>
+        <div id="capacity"></div>
+        <div id="last"></div>
+      </div>
+      <div class="box" id="box1">
+        <div id="circle"></div>
+        <div id="skillname" style="flex:4.5">NodeJS</div>
+        <div id="capacity"></div>
+        <div id="lastnode"></div>
+      </div>
+      <div class="box" id="box1">
+        <div id="circle"></div>
+        <div id="skillname" style="flex:4.5">ExpressJS</div>
+        <div id="capacity"></div>
+        <div id="lastexpress"></div>
+      </div>
+     
+    </div>
+  </body>
 </html>
